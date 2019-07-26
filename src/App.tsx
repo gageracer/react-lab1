@@ -6,6 +6,7 @@ import Home from "./components/Tabs/Home/Home";
 import About from "./components/Tabs/About/About";
 import Projects from "./components/Tabs/Projects/Projects";
 import Contact from "./components/Tabs/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 const App: React.FC = () => {
   return (
@@ -15,7 +16,7 @@ const App: React.FC = () => {
       <About/>
       <Projects/>
       <Contact/>
-      
+      <Footer message={"This is an example react project for the class lab. It can be used in any way.2019"}/>
     </div>
   );
 }

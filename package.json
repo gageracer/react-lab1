@@ -2,7 +2,7 @@
   "name": "react_ts",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/gageracer/react-lab1",
+  "homepage": "https://gageracer.github.io/react-lab1/",
   "dependencies": {
     "@types/jest": "24.0.15",
     "@types/node": "12.6.8",
