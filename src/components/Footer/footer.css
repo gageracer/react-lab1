@@ -6,11 +6,11 @@
     margin:0;
     position: fixed;
     bottom: 0%;
-    background-color: #2e3428;
+    background-color: #171a16;
+    border: 1px rgba(62, 128, 0, 0.52) solid;
 }
 .footer>div{
     width: fit-content;
-   
     color: rgba(62, 128, 0, 0.52);
     text-align: center;
 }

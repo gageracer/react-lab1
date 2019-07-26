@@ -1,9 +1,15 @@
+@media (min-width:481px)  {
+    .nav{
+        flex-direction: column;
+    }
+}
 .nav{
     justify-content: start;
     flex-direction: row;
     width: 90vw;
     margin:0;
     position: fixed;
+    font-size: calc(10px + 2vmin);
 }
 .nav>a{
     margin-left:10px;
