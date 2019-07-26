@@ -1,29 +1,59 @@
-@media (min-width:481px)  {
+@media screen and (max-width:481px)  {
+    
     .nav{
+        display: flex;
+        justify-content: start;
         flex-direction: column;
+        width: 100vw;
+        margin:0;
+        position: fixed;
+        font-size: 2em;
+        background-color: #171a16;
+    }
+    .nav>a{
+        margin-left:10px;
+        color: #61dafb;
+        text-decoration: none;
+    }
+
+    .nav>div{
+        width: fit-content;
+        color: green;
+        float: right;
+    }
+
+    .nav>a:hover{
+        background-color: #282c3480;
+        color: rgba(0, 128, 0, 0.52);
     }
 }
-.nav{
-    justify-content: start;
-    flex-direction: row;
-    width: 90vw;
-    margin:0;
-    position: fixed;
-    font-size: calc(10px + 2vmin);
-}
-.nav>a{
-    margin-left:10px;
-    color: green;
-    text-decoration: none;
-}
 
-.nav>div{
-    width: fit-content;
-    color: green;
-    float: right;
-}
+@media screen and (min-width:481px){
+    
+    .nav{
+        display: flex;
+        justify-content: start;
+        flex-direction: row;
+        width: 100vw;
+        margin:0;
+        position: fixed;
+        font-size: calc(10px + 2vmin);
+        background-color: #171a16;
+    }
+    .nav>a{
+        margin-left:10px;
+        color: #61dafb;
+        text-decoration: none;
+    }
 
-.nav>a:hover{
-    background-color: #282c3480;
-    color: rgba(0, 128, 0, 0.52);
-}
+    .nav>div{
+        width: fit-content;
+        color: green;
+        float: right;
+    }
+
+    .nav>a:hover{
+        background-color: #282c3480;
+        color: #61dafb98;
+    }
+} 

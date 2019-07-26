@@ -38,6 +38,7 @@ body{
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
+  opacity: 0.1;
 }
 
 .App-header {
@@ -50,9 +51,9 @@ body{
   color: white;
 }
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
 @keyframes App-logo-spin {
   from {
