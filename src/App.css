@@ -1,6 +1,32 @@
 .App {
   text-align: center;
 }
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+#home,#about,#projects,#contact{
+    min-width: auto;
+    min-height: 100vh;
+}
+
+#home{
+  background-color: #282c34;
+}
+#about{
+  background-color: #28342c;
+}
+
+#projects{
+  background-color: #343428;
+}
+
+#contact{
+  background-color: #342832;
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -9,7 +35,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

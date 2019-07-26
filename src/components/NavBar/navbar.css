@@ -1,0 +1,23 @@
+.nav{
+    justify-content: start;
+    flex-direction: row;
+    width: 90vw;
+    margin:0;
+    position: fixed;
+}
+.nav>a{
+    margin-left:10px;
+    color: green;
+    text-decoration: none;
+}
+
+.nav>div{
+    width: fit-content;
+    color: green;
+    float: right;
+}
+
+.nav>a:hover{
+    background-color: #282c3480;
+    color: rgba(0, 128, 0, 0.52);
+}
