@@ -10,9 +10,6 @@ type MyProps = {
 
 class NewBox extends Component<MyProps> {
     
-    constructor(props: any) {
-        super(props)
-    }
     // state: MyState = {
     //     count: this.props.message,
     // };
