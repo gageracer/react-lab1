@@ -17,11 +17,8 @@ export default class Home extends React.Component{
 
         return (
             <div id="home">
-                <News>
-                    <NewBox/>
-                    <NewBox />
-                    <NewBox />
-                </News>
+                <News/>
+                    
                 <img src={logo} className="App-logo" alt="logo" />
                     
             </div>
