@@ -10,7 +10,7 @@
         font-size: calc(1em + 1vmin);
         background-color: #171a16;
         bottom: 0%;
-        
+        z-index: 50;
     }
     .nav>a{
         margin-left:10px;
@@ -38,7 +38,7 @@
     
     .nav{
         display: flex;
-        justify-content: start;
+        justify-content: flex-start;
         flex-direction: row;
         width: 100vw;
         margin:0;

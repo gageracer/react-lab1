@@ -1,9 +1,11 @@
 import React from 'react';
 import './home.css';
 import logo from '../../../../src/logo.svg';
+import News from '../../News/News';
+import NewBox from '../../News/NewBox';
 
 
-export default class Home extends React.Component {
+export default class Home extends React.Component{
     constructor(props: any) {
         super(props);
         this.state = {
@@ -15,10 +17,13 @@ export default class Home extends React.Component {
 
         return (
             <div id="home">
-
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                </header>
+                <News>
+                    <NewBox/>
+                    <NewBox />
+                    <NewBox />
+                </News>
+                <img src={logo} className="App-logo" alt="logo" />
+                    
             </div>
         )
     };
